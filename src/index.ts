@@ -4,7 +4,7 @@ import * as bodyParser from "body-parser";
 import * as express from "express";
 import * as path from "path";
 
-var app = express();
+const app = express();
 
 app.get('/', (req: express.Request, res: express.Response) => {
   res.send('Hello Typescript!');
