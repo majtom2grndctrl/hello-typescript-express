@@ -16,3 +16,4 @@ app.get('/:name', (req: express.Request, res: express.Response) => {
 });
 
 app.listen('8080');
+console.log('\nApp is running. To view it, open a web browser to http://localhost:8080.\nTo be greeted by the app, visit http://localhost:8080/YourName.\n\nQuit app with ctrl+c.');
