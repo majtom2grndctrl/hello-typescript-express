@@ -1,8 +1,8 @@
 {
     "compilerOptions": {
         "module": "commonjs",
-        "target": "es5",
-        "noImplicitAny": false,
+        "target": "es2015",
+        "noImplicitAny": true,
         "outDir": "www",
         "rootDir": "src",
         "sourceMap": false
