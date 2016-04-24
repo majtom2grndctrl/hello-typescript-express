@@ -4,22 +4,26 @@
 
 1. Install [Node.js and NPM](https://nodejs.org)
 
-1. Install Typescript and Typings
+2. Install Typescript and Typings
 
 > `$ sudo npm install -g typescript typings`
 
-1. Install dependencies
+3. Clone this repository
+
+> `$ git clone git@github.com:majtom2grndctrl/hello-typescript-express.git`
+
+4. Install dependencies
 
 > `$ npm install`
 >
 > `$ typings install`
 
-1. Compile index.ts
+5. Compile index.ts
 
 > `$ tsc`
 
 The resulting Javascript file is output to the `www` directory.
 
-1. Run the compiled JS
+6. Run the compiled JS
 
 > `node www`
