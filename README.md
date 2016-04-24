@@ -2,7 +2,7 @@
 
 ## Prerequisites
 
-1. Install (Node.js and NPM)[https://nodejs.org]
+1. Install [Node.js and NPM](https://nodejs.org)
 
 1. Install Typescript and Typings
 
