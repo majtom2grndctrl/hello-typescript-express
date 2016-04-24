@@ -11,6 +11,7 @@
 1. Install dependencies
 
 > `$ npm install`
+>
 > `$ typings install`
 
 1. Compile index.ts
