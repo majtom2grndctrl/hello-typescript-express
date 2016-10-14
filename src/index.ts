@@ -1,7 +1,7 @@
 import * as express from "express";
 import * as path from "path";
 
-const app = express();
+const app:express.Application = express();
 
 app.get('/', (req: express.Request, res: express.Response) => {
   res.send('Hello Typescript!');
