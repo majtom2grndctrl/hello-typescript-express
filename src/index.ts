@@ -9,7 +9,7 @@ app.get('/', (req: express.Request, res: express.Response) => {
 
 app.get('/:name', (req: express.Request, res: express.Response) => {
   let name: string = req.params.name;
-  res.send('Hello ' + name +'!');
+  res.send('Hello ' + name + '!');
 });
 
 app.listen('8080');
