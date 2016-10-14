@@ -16,4 +16,4 @@ Install dependencies.
 
 Start the app.
 
-> `npm run start`
+> `$ npm run start`
