@@ -1,16 +1,12 @@
 {
+    "compileOnSave": false,
     "compilerOptions": {
         "module": "commonjs",
         "target": "es2015",
         "noImplicitAny": true,
-        "outDir": "www",
-        "rootDir": "src",
         "sourceMap": false
     },
     "exclude": [
-        "node_modules",
-        "typings/browser.d.ts",
-        "typings/browser",
-        "www"
+        "node_modules"
     ]
 }

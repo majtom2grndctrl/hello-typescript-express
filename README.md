@@ -2,11 +2,7 @@
 
 ## Prerequisites
 
-1. Install [Node.js and NPM](https://nodejs.org).
-
-2. Install Typescript and Typings.
-
-> `$ sudo npm install -g typescript typings`
+Install [Node.js and NPM](https://nodejs.org).
 
 ## Installation Instructions
 
@@ -17,13 +13,7 @@ Clone this repository.
 Install dependencies.
 
 > `$ npm install`
->
-> `$ typings install`
 
-Compile Typescript (output goes to `www` directory).
+Start the app.
 
-> `$ tsc`
-
-Run the compiled JS.
-
-> `node www`
+> `npm run start`
