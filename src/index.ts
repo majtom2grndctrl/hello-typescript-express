@@ -1,13 +1,13 @@
 import * as express from "express";
 import * as path from "path";
 
-const app:express.Application = express();
+const app = express();
 
-app.get('/', (req: express.Request, res: express.Response) => {
+app.get('/', (req, res) => {
   res.send('Hello Typescript!');
 });
 
-app.get('/:name', (req: express.Request, res: express.Response) => {
+app.get('/:name', (req, res) => {
   let name: string = req.params.name;
   res.send('Hello ' + name + '!');
 });
