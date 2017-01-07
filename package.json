@@ -7,7 +7,7 @@
     "start": "ts-node src/index.ts",
     "dev": "nodemon -e ts --exec \"npm run start\""
   },
-  "author": "",
+  "author": "Dan Hiester <dan.hiester@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "@types/express": "^4.0.34",
@@ -17,5 +17,6 @@
   },
   "devDependencies": {
     "nodemon": "^1.11.0"
-  }
+  },
+  "repository": "git@github.com:majtom2grndctrl/hello-typescript-express.git"
 }

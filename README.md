@@ -2,7 +2,8 @@
 
 ## Prerequisites
 
-Install [Node.js and NPM](https://nodejs.org).
+* [Node.js and NPM](https://nodejs.org) for running the app.
+* [Yarn](https://yarnpkg.com/en/docs/install) for package management.
 
 ## Installation Instructions
 
@@ -12,8 +13,13 @@ Clone this repository.
 
 Install dependencies.
 
-> `$ npm install`
+> `$ yarn install`
 
 Start the app.
 
 > `$ npm run start`
+
+If you want to play with the source code, and reload the app on file save, run the `dev` script.
+
+> `$ npm run dev`
+
