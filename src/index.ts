@@ -11,5 +11,6 @@ app.get('/:name', (req, res) => {
   res.send('Hello ' + name + '!');
 })
 
-app.listen('8080')
-console.log('\nApp is running. To view it, open a web browser to http://localhost:8080.\nTo be greeted by the app, visit http://localhost:8080/YourName.\n\nQuit app with ctrl+c.')
+app.listen('8080', () => {
+  console.log('\nApp is running. To view it, open a web browser to http://localhost:8080.\nTo be greeted by the app, visit http://localhost:8080/YourName.\n\nQuit app with ctrl+c.')
+})
