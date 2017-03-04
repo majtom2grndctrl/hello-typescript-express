@@ -3,12 +3,12 @@ import * as express from 'express'
 const app = express()
 
 app.get('/', (req, res) => {
-  res.send('Hello Typescript!');
+  res.send('Hello Typescript!')
 })
 
 app.get('/:name', (req, res) => {
-  const name: string = req.params.name;
-  res.send('Hello ' + name + '!');
+  const name: string = req.params.name
+  res.send('Hello ' + name + '!')
 })
 
 app.listen('8080', () => {
